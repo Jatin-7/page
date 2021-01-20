@@ -1,0 +1,126 @@
+body{
+    background-color: #ffe5b9;
+    margin: 0px;
+    padding: 0px;
+    max-width: 95%;
+    height:auto;
+}
+
+.links{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top:30px;
+    border:2px solid transparent ; 
+    text-align: right;
+    width: 100%;
+}
+
+
+.links a{
+    margin: 0px 5px;
+    padding: 5px 20px 3px 20px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    color: #41584b;
+    font-size: 1.2rem;
+}
+
+
+.links a:hover{
+    color: #ff6666;
+}
+
+a.btn:hover{
+    color:#41584b;
+}
+
+h1.log{
+    display: inline-block;
+    position: absolute;
+    margin: 0px;
+    top: 14px;
+    left:50px;
+    font-family: 'Hachi Maru Pop', cursive;
+    color:#ff6666;
+    width: 90%;
+}
+
+.links .icon{
+    display: none;
+}
+
+@media screen and (max-width:1000px){
+    .links a{
+        display:none;
+    }
+    .links a.icon{
+        display: block;
+        position: absolute;
+        left: 30px;
+        top: 0;
+        margin-top: -8px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .links.responsive{
+        display:inline-block;
+        position: absolute;
+        text-align: center;
+        top:75px;
+        width:100%;
+        right:0;
+        left:-22px;
+    }
+    .links.responsive a.icon {
+      position: fixed;
+      left: 18px;
+      top: 23.5px;
+      margin:0;
+    }
+   
+    .links.responsive .link{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-left: 20px;
+        font-size: 1.3rem;
+        
+    }
+
+    a.icon{
+        position: fixed;
+        left: 30px;
+        top: 29.8px;
+        margin-top: -8px;
+        font-size: 28px;
+        padding:0px;
+        margin:0;
+        color:#41584b;
+    }
+}
+
+
+@media only screen and (max-width:1000px){
+    h1.log{
+        display: block;
+        text-align: center;
+        font-family: 'Hachi Maru Pop', cursive;
+        color:#ff6666;
+        width: 100%;
+        margin-right: 0px;
+        margin-left:-45px;
+    }
+}
+
+
+.newmode{
+    background-color: black;
+    color: white;
+}
+
+.link a{
+    color:#f5f5f5;
+}
